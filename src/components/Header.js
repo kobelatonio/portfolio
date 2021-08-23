@@ -5,7 +5,7 @@ const Header = ({viewProjects}) => {
         <header>
             <div className="container">
                 <motion.div className="logo-container"
-                    initial={{y: '25vh'}} 
+                    initial={{y: 0}} 
                     animate={{y: 0}} 
                     transition={{duration: 1, delay: 2, ease: "easeOut"}}
                 >
@@ -23,14 +23,14 @@ const Header = ({viewProjects}) => {
                 <motion.h1 
                     initial={{opacity: 0}} 
                     animate={{opacity: 1}} 
-                    transition={{duration: 1, delay: 2.75, ease: "easeOut"}}
+                    transition={{duration: 1, delay: 2, ease: "easeOut"}}
                 >
                     Hi! <span className="wave">👋</span> I’m Kobe Latonio.<br/>I love to design and develop<br/>things that live on the web.
                 </motion.h1>
                 <motion.div className="buttons"
                     initial={{opacity: 0}} 
                     animate={{opacity: 1}} 
-                    transition={{duration: 1, delay: 3.5, ease: "easeOut"}}
+                    transition={{duration: 1, delay: 2.75, ease: "easeOut"}}
                 >
                     <button onClick={() => viewProjects()}>Projects</button>
                     <a href="https://drive.google.com/file/d/1p1HB_jNhNhCuWZIEUHFKAlaqyxnGrvbJ/view?usp=sharing" className="button" target="_blank">Resume</a>

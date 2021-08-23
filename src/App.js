@@ -33,7 +33,7 @@ function App() {
     scroller.scrollTo("projects-container", {
       duration: 800,
       delay: 0,
-      smooth: "easeInOut",
+      smooth: "easeOut",
     });
   }
 

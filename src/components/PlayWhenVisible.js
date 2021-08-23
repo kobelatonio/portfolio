@@ -12,7 +12,7 @@ const PlayWhenVisible = ({ video, index }) => {
     }, [inView]);
   
     return (
-        <video loop ref={ref} className={index}>
+        <video loop ref={ref} muted className={index}>
             <source src={video} type='video/mp4' />
         </video>
     );
