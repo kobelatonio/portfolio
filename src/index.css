@@ -499,19 +499,44 @@ header .buttons {
   }
 
   .projects-container {
-    padding: 12vw 7vw;
+    padding: 12vw 4vw;
   }
 
   .projects {
-    gap: 4vw;
+    gap: 6vw;
   }
 
   .project {
-    gap: 3vw;
+    gap: 3.5vw;
+    grid-template-columns: 3fr 9fr 1fr;
+  }
+
+  .project .project-logo {
+    padding: 2vw;
+  }
+
+  .project .project-logo-image {
+    padding: 0 0 100%;
   }
 
   .project .details {
     padding-right: 0vw;
+  }
+
+  .project .details p {
+    font-size: 1.15rem;
+    line-height: 2.15rem;
+  }
+
+  .contacts {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+
+  .contacts p, .creator p {
+    font-size: 1.15rem;
+    line-height: 2.25rem;
   }
 
   .tech .tools p {
